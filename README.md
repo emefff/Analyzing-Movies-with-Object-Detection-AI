@@ -13,3 +13,5 @@ Let's take a look at another movie where we can be sure to find some distinct cl
 "Four weddings and a Funeral": This mid-90s romcom features, as the title suggests, four weddings and a funeral. Thus, we can expect high scores of 'person', 'wine glass', 'tie' and 'bottle' in the footage:
 
 ![Four weddings and a Funeral annotated analysis](https://github.com/user-attachments/assets/d34a9248-ddb2-4548-8d75-5e6aba72be0b)
+
+From the graph we can clearly discern the four weddings with the accumulated numbers of people, glasses and bottles. As Charles, more or less, cancels his own wedding, we can't find any glasses or bottles afterwards. Clearly, there's nothing to celebrate. 
