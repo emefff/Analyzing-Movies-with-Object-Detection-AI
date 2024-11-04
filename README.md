@@ -12,3 +12,4 @@ Let's take a look at another movie where we can be sure to find some distinct cl
 
 "Four weddings and a Funeral": This mid-90s romcom features, as the title suggests, four weddings and a funeral. Thus, we can expect high scores of 'person', 'wine glass', 'tie' and 'bottle' in the footage:
 
+![Four weddings and a Funeral annotated analysis](https://github.com/user-attachments/assets/fcfe52d3-b8b9-4b5b-8bdc-b509de169880)
