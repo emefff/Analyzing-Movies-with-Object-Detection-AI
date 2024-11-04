@@ -22,7 +22,8 @@ Have fun,
 
 emefff@gmx.at
 
-Technical stuff:Analyzing 1200-1400 images on a GTX3090 takes a few minutes. 
-                python == 3.12
-                torch  == 2.5
-                cuda   == 2.5.0
+Technical stuff:
+Analyzing 1200-1400 images on a GTX3090 takes a few minute, 0.10 - 0.17s per image 
+python == 3.12
+torch  == 2.5
+cuda   == 2.5.0
