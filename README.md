@@ -15,3 +15,9 @@ Let's take a look at another movie where we can be sure to find some distinct cl
 ![Four weddings and a Funeral annotated analysis](https://github.com/user-attachments/assets/d34a9248-ddb2-4548-8d75-5e6aba72be0b)
 
 From the graph we can clearly discern the four weddings with the accumulated numbers of people, glasses and bottles. As Charles, more or less, cancels his own wedding, we can't find any glasses or bottles afterwards. Clearly, there's nothing to celebrate. 
+
+Basically, even this simple script can be used to gain some information about a movie. With a larger number of classes and a higher number of frames, even more insight can be gained. In conjunction with color statistics and sound we could imagine to discern different scenes automatically.
+
+Have fun,
+
+emefff@gmx.at
