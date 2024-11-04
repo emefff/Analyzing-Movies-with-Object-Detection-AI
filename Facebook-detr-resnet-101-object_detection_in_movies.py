@@ -2,7 +2,7 @@
 """
 Created on Sun Nov  3 11:00:31 2024
 
-@author: mario
+@author: emefff
 """
 
 from transformers import DetrImageProcessor, DetrForObjectDetection
@@ -13,6 +13,7 @@ import glob
 
 ###############################################################################
 ######################### GENERATE IMAGE WITH FFMPEG ##########################
+###############################################################################
 # ffmpeg -i MOVIE.mkv -vf "fps=0.2" frame%04d.jpg # one frame every 5 seconds
 
 # Analyzing 1200-1400 HD images takes ~6 minutes on a throttled (100W) GTX3090
@@ -53,7 +54,7 @@ model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-101", revis
 model.to(DEVICE)
 
 # save the model ONCE!
-# torch.save(model.state_dict(), "/home/mario/pytorchProjects/Testing_HuggingFace_Models/Facebook-detr-resnet-101/Facebook-detr-resnet-101.pth")
+# torch.save(model.state_dict(), "/home/emefff/pytorchProjects/Testing_HuggingFace_Models/Facebook-detr-resnet-101/Facebook-detr-resnet-101.pth")
 
 # plots an image with detection box, label, score
 def plot_results(pil_img, scores, labels, boxes):
@@ -75,6 +76,8 @@ THRESHOLD = 0.7
 
 ###############################################################################
 ########################### DO INFERENCE ON IMAGES ############################
+###############################################################################
+
 # we want to check more than one image and plot it with detection box, label, score
 durations_list = [] # we want to measure inference duration
 
@@ -138,6 +141,7 @@ print("Detected labels:", labels_occur_list)
 
 ###############################################################################
 ################ LET'S SEARCH FOR SOME LABELS/ITEMS IN THE DATA ###############
+###############################################################################
 
 # choose some labels that are in the labels_occur_list
 items_search_list = ['person', 'umbrella', 'tie', 'wine glass', 'bottle', 'potted plant']
